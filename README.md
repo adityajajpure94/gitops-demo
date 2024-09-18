@@ -1,4 +1,4 @@
-# Demo - GitOps in action using Kubernetes With Argo CD, vCluster, and GitHub Actions
+# GitOps in action using Kubernetes With Argo CD
 
 ## Introduction
 This repository contains a architecture for a scalable and secure 3-tier Node application with proper GitOps practices in-place.
@@ -9,16 +9,7 @@ This repository contains a architecture for a scalable and secure 3-tier Node ap
 3. `Database`: Postgres is used
 4. `Redis`: to cache backend data
 
-<p align="center"><img src="./docs/assets/component-diagram.png" height="300"></p>
-
-## Running Demo
-http://abd8a590dfbe6423c840dbae0760cc3c-2127572997.us-west-2.elb.amazonaws.com
-
 ## Architecture
-
-High Level Architecture Diagram
-
-<p align="center"><img src="./docs/assets/prod-setup.png" width="800"></p>
 
 **NOTE**
 - HPA is enabled on Backend and Frontend Applications
